@@ -21,7 +21,9 @@ For the open-source projects we need API endpoints for:
 
 # Instructions to start the Django application.
 1) Clone the project to the desired directory: git clone https://github.com/evangelos-koufogiannis/project-contributors.git
-2) Change directory to project-contributors one: cd/project-contributors
+2) Change directory to project-contributors one: cd project-contributors/
 3) Create a venv: python -m venv venv or python3 -m venv venv according to your setup (Python 3)
 4) Activate the newly created venv: source venv/bin/activate
 5) Install application's requirements defined in requirements.txt file: pip install -r requirements.txt
+6) Change directory to Django's project directory: cd contributors/
+7) Start the Djnago server (specify deferent IP and/or Port if that's desired but Postmans calls are for the default server settings): python manage.py runserver
