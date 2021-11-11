@@ -26,4 +26,6 @@ For the open-source projects we need API endpoints for:
 4) Activate the newly created venv: source venv/bin/activate
 5) Install application's requirements defined in requirements.txt file: pip install -r requirements.txt
 6) Change directory to Django's project directory: cd contributors/
-7) Start the Djnago server (specify deferent IP and/or Port if that's desired but Postmans calls are for the default server settings): python manage.py runserver
+7) Start the Djnago server (specify deferent IP and/or Port if that's desired but Postman's calls are for the default server settings): python manage.py runserver
+
+Note: API call structure and examples can bee found in the Postman files.
